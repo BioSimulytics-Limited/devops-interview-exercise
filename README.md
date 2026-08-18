@@ -10,6 +10,15 @@ Our [weather prediction microservice](https://github.com/orgs/BioSimulytics-Limi
 We've provided the production `docker-compose.yml` file that will run the service locally and a python script `test_endpoint.py` that will hit the service with a load of requests.
 
 ## Deliverables
-Your job is to build an observability/monitoring service that can help us understand why our microservice is crashing. You can use any tools you want. The service should capture memory usage, CPU usage, network usage, restart/failover history and logs. 
+Your job is to build an observability/monitoring service that can help us understand why our microservice is crashing. The service should capture and display the following performance metrics:
+- memory usage
+- CPU usage
+- network I/O
+- restart rate
+- logs
 
-Using the monitoring data, figure out the root cause of the crash and explain it in a brief paragraph.
+Using this data, figure out the root cause of the crash and explain your findings in a brief paragraph.
+
+> [!NOTE]
+> You can use any tech stack you want, but the simpler the better.
+> You may use AI to assist you, but you must disclose use of AI in your solution and how it was used.
