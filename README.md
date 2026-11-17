@@ -18,7 +18,9 @@ Your job is to build an observability/monitoring service that can help us unders
 - logs
 
 Using this data, figure out the root cause of the crash and explain your findings in a brief paragraph.
+Please upload your solution and setup instructions to a **private** Github repository and add user jardol321 as a collaborator.
 
 > [!NOTE]
 > You can use any tech stack you want, but the simpler the better.
 > You may use AI to assist you, but you must disclose use of AI in your solution and how it was used.
+
